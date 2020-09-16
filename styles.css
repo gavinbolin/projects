@@ -26,6 +26,30 @@ h2, h3, h4, h5, h6 {  /* makes all headers fonts this */
 ul {
   list-style-type: circle; /* styles of unordered lists*/
 }
+.hotbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+.hotbar li{
+  float: left;
+}
+.hotbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.hotbar li a:hover:not(.active) {
+  background-color: #696969;
+}
+.active {
+  background-color: #28AFFF;
+}
+}
 ol {
   list-style-type: lower-roman; /* style of ordered lists*/
 }
